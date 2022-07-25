@@ -39,7 +39,7 @@ Shader "Jerry/20220724/Texture2Gray"
             fixed4 frag(v2f i) : SV_Target
             {
                 fixed4 color = tex2D(_MainTex, i.tex);
-                float grey = dot(color.rgb, fixed3(0.22, 0.707, 0.071));
+                float grey = dot(color.rgb, fixed3(0.299, 0.587, 0.114));
                 color.rgb = float3(grey, grey, grey);
                 return color;
             }
