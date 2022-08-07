@@ -356,5 +356,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Capsule
       objectReference: {fileID: 0}
+    - target: {fileID: 3851105584298592338, guid: 7c55aea84ce0b4609a59ddb9b49f130f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b0504d6b9c4964b4aaf264f39834805f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c55aea84ce0b4609a59ddb9b49f130f, type: 3}
